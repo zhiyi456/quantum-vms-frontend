@@ -1,0 +1,181 @@
+:root {
+  --dl-color-gray-500: #595959;
+  --dl-color-gray-700: #999999;
+  --dl-color-gray-900: #D9D9D9;
+  --dl-color-black-100: rgba(28, 28, 30, 1);
+  --dl-color-neutral-1: rgba(51, 51, 51, 1);
+  --dl-color-neutral-2: rgba(79, 79, 79, 1);
+  --dl-color-neutral-4: rgba(189, 189, 189, 1);
+  --dl-color-neutral-6: rgba(250, 250, 250, 1);
+  --dl-size-size-large: 144px;
+  --dl-size-size-small: 48px;
+  --dl-color-danger-300: #A22020;
+  --dl-color-danger-500: #BF2626;
+  --dl-color-danger-700: #E14747;
+  --dl-color-gray-black: #000000;
+  --dl-color-gray-white: #FFFFFF;
+  --dl-size-size-medium: 96px;
+  --dl-size-size-xlarge: 192px;
+  --dl-size-size-xsmall: 16px;
+  --dl-space-space-unit: 16px;
+  --dl-color-primary-100: #003EB3;
+  --dl-color-primary-300: #0074F0;
+  --dl-color-primary-500: #14A9FF;
+  --dl-color-primary-700: #85DCFF;
+  --dl-color-success-300: #199033;
+  --dl-color-success-500: #32A94C;
+  --dl-color-success-700: #4CC366;
+  --dl-size-size-xxlarge: 288px;
+  --dl-size-size-maxwidth: 1400px;
+  --dl-color-default-black: rgba(17, 17, 17, 1);
+  --dl-color-default-green: rgba(41, 229, 49, 1);
+  --dl-color-default-white: rgba(255, 255, 255, 1);
+  --dl-radius-radius-round: 50%;
+  --dl-color-default-black1: rgba(17, 17, 17, 1);
+  --dl-color-default-black2: rgba(17, 17, 17, 1);
+  --dl-color-default-black3: rgba(17, 17, 17, 1);
+  --dl-color-default-black4: rgba(17, 17, 17, 1);
+  --dl-color-default-linear: rgba(47, 153, 200, 1);
+  --dl-color-default-white1: rgba(255, 255, 255, 1);
+  --dl-color-default-white2: rgba(255, 255, 255, 1);
+  --dl-color-default-white3: rgba(255, 255, 255, 1);
+  --dl-color-default-white4: rgba(255, 255, 255, 1);
+  --dl-color-default-white5: rgba(255, 255, 255, 1);
+  --dl-color-default-white6: rgba(255, 255, 255, 1);
+  --dl-color-default-white7: rgba(255, 255, 255, 1);
+  --dl-color-default-white8: rgba(255, 255, 255, 1);
+  --dl-space-space-halfunit: 8px;
+  --dl-space-space-sixunits: 96px;
+  --dl-space-space-twounits: 32px;
+  --dl-color-default-primary: rgba(0, 121, 179, 1);
+  --dl-radius-radius-radius2: 2px;
+  --dl-radius-radius-radius4: 4px;
+  --dl-radius-radius-radius8: 8px;
+  --dl-space-space-fiveunits: 80px;
+  --dl-space-space-fourunits: 64px;
+  --dl-color-default-tertiary: rgba(47, 153, 200, 1);
+  --dl-space-space-threeunits: 48px;
+  --dl-color-dark_text-primary: rgba(255, 255, 255, 1);
+  --dl-color-default-secondary: rgba(140, 142, 144, 1);
+  --dl-color-default-secondary1: rgba(140, 142, 144, 1);
+  --dl-color-default-secondary2: rgba(140, 142, 144, 1);
+  --dl-color-light_text-primary: rgba(28, 28, 30, 1);
+  --dl-space-space-oneandhalfunits: 24px;
+  --dl-color-light_background-paper: rgba(255, 255, 255, 1);
+  --dl-color-light_background-default: rgba(250, 250, 250, 1);
+  --dl-color-light_background-transparent: rgba(255, 255, 255, 0);
+}
+.button {
+  color: var(--dl-color-gray-black);
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+.input {
+  color: var(--dl-color-gray-black);
+  cursor: auto;
+  padding: 0.5rem 1rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+.textarea {
+  color: var(--dl-color-gray-black);
+  cursor: auto;
+  padding: 0.5rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+.list {
+  width: 100%;
+  margin: 1em 0px 1em 0px;
+  display: block;
+  padding: 0px 0px 0px 1.5rem;
+  list-style-type: none;
+  list-style-position: outside;
+}
+.list-item {
+  display: list-item;
+}
+.teleport-show {
+  display: flex !important;
+  transform: none !important;
+}
+.Content {
+  font-size: 16px;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+.ParagraphSmallBold {
+  font-size: 14px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.HeadingH4Bold {
+  font-size: 28px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.H2bold {
+  font-size: 40px;
+  font-style: normal;
+  font-family: Outfit;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.PBodyMregular {
+  font-size: 16px;
+  font-style: normal;
+  font-family: Outfit;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.Heading {
+  font-size: 32px;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+.HeadingH2Regular {
+  font-size: 36px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.ParagraphSmallRegular {
+  font-size: 14px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.ParagraphNormalRegular {
+  font-size: 16px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.BTNLSemi-Bold {
+  font-size: 18px;
+  font-style: normal;
+  font-family: Outfit;
+  font-weight: 600px;
+  font-stretch: normal;
+}
