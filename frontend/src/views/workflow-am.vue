@@ -201,13 +201,13 @@
 
 <script>
 export default {
-  name: 'Workflow',
+  name: 'WorkflowAM',
   metaInfo: {
-    title: 'Workflow - Quantum VMS',
+    title: 'Account Manager Workflow - Quantum VMS',
     meta: [
       {
         property: 'og:title',
-        content: 'Workflow - Quantum VMS',
+        content: 'Account Manager Workflow - Quantum VMS',
       },
     ],
   },

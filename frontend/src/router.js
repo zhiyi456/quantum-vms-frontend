@@ -2,12 +2,16 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Meta from 'vue-meta'
 
-import Workflow from './views/workflow'
+import WorkflowAM from './views/workflow-am'
+import WorkflowVendor from './views/workflow-v'
 import Form1 from './views/form-1'
 import Form2 from './views/form-2'
 import Form3 from './views/form-3'
 import AccountManager from './views/account-manager'
+import AccManager from './views/acc-manager'
 import Login from './views/login'
+import SideBar from './views/side-bar'
+import SideBarVendor from './views/side-bar-vendor'
 import './style.css'
 
 Vue.use(Router)
@@ -16,9 +20,24 @@ export default new Router({
   mode: 'history',
   routes: [
     {
-      name: 'Workflow',
-      path: '/workflow',
-      component: Workflow,
+      name: 'WorkflowAM',
+      path: '/workflow-am',
+      component: WorkflowAM,
+    },
+    {
+      name: 'WorkflowVendor',
+      path: '/workflow-v',
+      component: WorkflowVendor,
+    },
+    {
+      name: 'SideBar',
+      path: '/side-bar',
+      component: SideBar,
+    },
+    {
+      name: 'SideBarVendor',
+      path: '/side-bar-vendor',
+      component: SideBarVendor,
     },
     {
       name: 'Form-1',
@@ -36,6 +55,11 @@ export default new Router({
       component: Form3,
     },
     {
+      name: 'Acc-Manager',
+      path: '/acc-manager',
+      component: AccManager,
+    },
+    {
       name: 'Account-Manager',
       path: '/account-manager',
       component: AccountManager,
@@ -45,5 +69,6 @@ export default new Router({
       path: '/',
       component: Login,
     },
+
   ],
 })
